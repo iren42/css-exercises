@@ -27,3 +27,65 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* MY SOLUTION */
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+a {
+	/* this removes the line under our links */
+	text-decoration: none;
+}
+
+ul {
+	/* this removes the dots on the list items*/
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex: 1;
+}
+
+.header {
+	font-size: 32px;
+	font-weight: 900;
+	display: flex;
+	align-items: center;
+	padding: 16px;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sidebar {
+	flex: 1 0 300px;
+	padding: 16px;
+}
+
+.sidebar a {
+	font-size: 24px;
+	color: white;
+}
+
+.cards {
+	display: flex;
+	padding: 48px;
+	flex-wrap: wrap;
+	gap: 32px;
+}
+
+.card {
+	width: 300px;
+	height: 300px;
+	padding: 16px;
+}
