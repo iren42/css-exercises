@@ -17,6 +17,8 @@
 
 .header {
   background-color: #393f4d;
+  grid-row: 1;
+  grid-column: 1 / -1;
 }
 
 .menu ul,
@@ -26,6 +28,8 @@
 
 .sidebar {
   background-color: #C50208;
+  grid-row: 2 / -2;
+  grid-column: 1;
 }
 
 .sidebar .photo {
@@ -46,6 +50,8 @@
 
 .nav {
   background-color: #C50208;
+  grid-row: 2;
+  grid-column: 2;
 }
 
 .nav ul li {
@@ -55,6 +61,8 @@
 
 .article {
   background-color: #bccbde;
+  grid-row: 3 / -2;
+  grid-column: 2;
 }
 
 .article p {
@@ -83,9 +91,17 @@
 
 .footer {
   background-color: #393f4d;
+  grid-row: -1 / -2;
+  grid-column: 1 / -1;
 }
 
 .footer p {
   font-size: 13px;
   font-weight: normal;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 2fr 1fr 5fr 1fr;
+  grid-template-columns: 1fr 4fr;
 }
