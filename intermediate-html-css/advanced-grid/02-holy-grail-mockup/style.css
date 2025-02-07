@@ -140,7 +140,13 @@ li {
   font-weight: normal;
 }
 
+body {
+  height: 100svh;
+  width: 100svw;
+}
+
 .container {
+  height: 100%;
   display: grid;
   grid-template-rows: 2fr 1fr 5fr 1fr;
   grid-template-columns: 1fr 4fr;
