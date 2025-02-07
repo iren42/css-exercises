@@ -130,6 +130,9 @@ li {
   background-color: #393f4d;
   grid-row: -1 / -2;
   grid-column: 1 / -1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer p {
