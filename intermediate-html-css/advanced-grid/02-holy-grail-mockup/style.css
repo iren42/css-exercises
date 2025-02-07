@@ -17,22 +17,19 @@
 
 .header {
   background-color: #393f4d;
-  /* grid-row: 1; */
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
 }
 
 .logo {
-  place-self: center left;
+  justify-self: start;
 }
 
 .menu ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 100%;
-  align-items: center;
-  justify-items: end;
 }
 
 .menu ul,
