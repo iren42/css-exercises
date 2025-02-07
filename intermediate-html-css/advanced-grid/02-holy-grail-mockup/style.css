@@ -48,6 +48,15 @@ li {
   background-color: #C50208;
   grid-row: 2 / -2;
   grid-column: 1;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  gap: 50px;
+}
+
+.sidebar * {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar .photo {
@@ -57,7 +66,6 @@ li {
   font-weight: normal;
   border-radius: 10px;
 }
-
 
 .sidebar .side-content {
   background-color: white;
